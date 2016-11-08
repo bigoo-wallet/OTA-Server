@@ -1,0 +1,171 @@
+.table>tbody>tr>td {
+  vertical-align: middle;
+}
+
+.row-mb {
+  margin-bottom: 10px;
+}
+
+.btn-submit {
+  position: relative;
+}
+
+.btn-submit .label {
+  position: absolute;
+  top: -1.7em;
+  left: 0;
+}
+
+.form-group .select2 {
+  display: block;
+  width: 100% !important;
+}
+
+.mt {
+  margin-top: 10px;
+}
+.mb {
+  margin-bottom: 10px;
+}
+.mr {
+  margin-right: 10px;
+}
+.ml {
+  margin-left: 10px;
+}
+
+.bootstrap-datetimepicker-widget {
+  z-index: 1004;
+}
+.datetimepicker-area {
+  position: relative;
+}
+
+/**
+ * 版面切换
+ */
+.switch-board .board-item {
+  display: none;
+}
+
+
+/**
+ * 模态框
+ */
+.common-modal .modal {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  margin-left: calc(-50%);
+  display: block;
+  z-index: 1001;
+  overflow-y: auto;
+}
+
+.common-modal .modal {
+  background: transparent !important;
+}
+.modal-bg {
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**
+ * 选择车型/车系模态框
+ */
+.modal-auto .modal-title .btn-goback {
+  margin-right: 1em;
+  cursor: pointer;
+}
+.modal-auto .auto-brand-tab .row-alpha {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-bottom: 1px solid #EEE;
+}
+.modal-auto .auto-brand-tab .row .alpha {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.modal-auto .auto-brands-board {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal-auto td {
+  cursor: pointer;
+}
+
+/**
+ * 地图相关
+ */
+.map-container {
+  width: 100%;
+  height: 300px;
+}
+
+/**
+ * 地图标记点
+ */
+.map-marker {
+  color: #ff6600;
+  padding: 4px 10px;
+  border: 1px solid #fff;
+  white-space: nowrap;
+  font-size: 12px;
+  font-family: "";
+  background-color: #0066ff;
+}
+
+/**
+ * 地图地理位置选择模态框
+ */
+.map-container .amap-info .amap-content-body .amap-lib-infowindow-title a {
+  display: none;
+}
+
+#addr-list {
+  overflow: auto; 
+  height: 300px;
+}
+
+#addr-list .poi-title a {
+  display: none;
+}
+
+#addr-list .poibox.active {
+  background: #3C8DBC;
+  color: #FFF;
+}
+
+#addr-list .poibox.active .poi-addr {
+  color: #FFF; 
+}
+
+.home-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.header-logo {
+  width: 30px;
+}
+
+.thumb img {
+  max-width: 200px;
+}
+
+.pull-left.info .name {
+  max-width: 8.7em;
+  overflow: hidden;
+}
+
+.amap-icon img {
+  height: 35px;
+}

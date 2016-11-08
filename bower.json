@@ -1,0 +1,23 @@
+{
+  "name": "OTA-Server",
+  "homepage": "https://github.com/tytymnty/OTA-Server",
+  "description": "",
+  "main": "",
+  "authors": [
+    "tytymnty@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "admin-lte#^2.3.7",
+    "font-awesome": "^4.7.0",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <style type="text/css">
+      form fieldset div {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>OTA相关</h1>
+    <h2>请求更新</h2>
+    <form method="post" action="/api/ota/update">
+      <div>
+        (平台)platform: string
+        <select name="platform">
+          <option value="Android">Android</option>
+          <option value="iOS">iOS</option>
+        </select>
+      </div>
+      <div>
+        (标识)identification: string
+        <input type="text" name="identification">
+      </div>
+      
+      <div>
+        (版本名称)version_name: string // 非必须条件
+        <input type="text" name="version_name">
+      </div>
+      <div>
+        (版本号)version_code: int
+        <input type="text" name="version_code">
+      </div>
+
+      <div>
+        (渠道)channel: string // 非必须条件
+        <input type="text" name="channel">
+      </div>
+
+      <div>
+        <button type="submit">提交</button>
+      </div>
+    </form>
+  </body>
+
+</html>

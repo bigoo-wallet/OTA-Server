@@ -1,0 +1,9 @@
+.DS_Store
+.env
+vendor
+files
+composer.lock
+cache
+bower_components
+node_modules
+www/web
