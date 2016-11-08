@@ -25,7 +25,7 @@
         <div class="box box-primary">
           <form action="<?=WEB_URL_ROOT?>/admin/ota/platform/add" method="post">
             <div class="box-header with-border">
-              <h3 class="box-title">添加渠道</h3>
+              <h3 class="box-title">添加平台</h3>
             </div>
             <div class="box-body box-profile">
 

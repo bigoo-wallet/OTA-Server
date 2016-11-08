@@ -33,13 +33,6 @@
 ?>
   <body class="hold-transition login-page">
 <?php
-  } else if ($pageId == 'signup_code_validate' || 
-    $pageId == 'forget_pwd' ||
-    $pageId == 'reset_pwd' 
-    ) {
-?>
-  <body class="hold-transition lockscreen">
-<?php
   } else {
 ?>
   <body class="hold-transition skin-blue sidebar-mini">

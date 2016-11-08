@@ -75,12 +75,12 @@ $app->post('/web/admin/auth/signin', function ($request, $response, $args) {
   );
 
   if (empty($user)) {
-    echo json_encode(Valid::addErrors($result, 'pwd', 'account_pwd_error'));
+    echo json_encode(Valid::addErrors($result, 'pwd', 'pwd_error'));
     return;
   }
 
   if ($user['pwd'] != md5($pwd)) {
-    echo json_encode(Valid::addErrors($result, 'pwd', 'account_pwd_error'));
+    echo json_encode(Valid::addErrors($result, 'pwd', 'pwd_error'));
     return;
   }
 

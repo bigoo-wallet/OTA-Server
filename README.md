@@ -12,8 +12,10 @@ OTA(Over-the-Air Technology) API Service And Web Management.
 ### 安装开发环境
 
 1. 安装 npm
+
   npm is distributed with Node.js- which means that when you download Node.js, you automatically get npm installed on your computer. 
   You can find install instructions on this site:
+
 <pre><code>https://nodejs.org/en/docs/</code></pre>
 
 1. 安装 composer
@@ -44,8 +46,15 @@ npm install --save-dev gulp</code></pre>
 <pre><code>./mysql -u [数据库用户名] -p [OTA服务器名字] < ota-server.sql</code></pre>
 
 1. 初始化配置文件
-<pre><code>cp .env.example .env // 修改环境变量
+<pre><code>cp .env.example .env // 修改环境变量</code></pre>
+
+1. Nginx配置，请参考
+<pre><code>ota-server.nginx.conf
+// 另外注意：合理修改Nginx和PHP的上传文件大小限制
 </code></pre>
+
+1. 管理平台默认密码
+<pre><code>111111</code></pre>
 
 ## 浏览器支持情况
 
